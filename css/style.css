@@ -83,7 +83,8 @@ these are classes we'll use through the site not specific to any part of the sit
 }
 
 .l-heading {
-  font-size: 40px
+  font-size: 40px;
+  line-height: 1.2;
 }
 
 /* utility class - padding */
@@ -102,7 +103,7 @@ these are classes we'll use through the site not specific to any part of the sit
   color: #fff;
 }
 
-#navbar h1 {
+#navbar .logo {
   float: left;
   padding-top: 20px;
 }
@@ -152,7 +153,7 @@ these are classes we'll use through the site not specific to any part of the sit
 
 /* home info */
 #home-info {
-  height: 400px;
+  height: 450px;
 }
 
 #home-info .info-img {
@@ -209,7 +210,7 @@ these are classes we'll use through the site not specific to any part of the sit
 
 /* testimonals */
 #testimonials {
-  height: 600px;
+  height: 100%;
   background: url("../img/test-bg.jpg") no-repeat center center/cover;
   padding-top: 100px;
 }
